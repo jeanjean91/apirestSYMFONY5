@@ -1,0 +1,13 @@
+api_platform:
+    resource: .
+    type: api_platform
+    prefix: /api/v1/
+
+
+app_swgger_ui:
+    path: /api/fb9870/documantation
+    methods: GET
+    defaults: { _controller: api_platform.swagger.action.ui}
+login:
+    path: /login
+    methods: ['POST']
